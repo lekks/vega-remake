@@ -1,0 +1,198 @@
+(kicad_sch
+	(version 20260306)
+	(generator "eeschema")
+	(generator_version "10.0")
+	(uuid "b98ac240-e849-4918-859a-e2207bd77e73")
+	(paper "A4")
+	(lib_symbols)
+	(sheet
+		(at 49.53 124.46)
+		(size 38.1 36.83)
+		(exclude_from_sim yes)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0)
+		)
+		(uuid "243a8945-f50b-4735-a2cf-623c3518f882")
+		(property "Sheetname" "Power"
+			(at 49.53 123.7484 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "power.kicad_sch"
+			(at 49.53 161.8746 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(instances
+			(project "electophonograph"
+				(path "/b98ac240-e849-4918-859a-e2207bd77e73"
+					(page "2")
+				)
+			)
+		)
+	)
+	(sheet
+		(at 115.57 69.85)
+		(size 41.91 25.4)
+		(exclude_from_sim yes)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0)
+		)
+		(uuid "aa9de4d9-9c83-4169-9a00-ad614120ae4b")
+		(property "Sheetname" "Multimedia"
+			(at 115.57 69.1384 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "multimedia.kicad_sch"
+			(at 115.57 95.8346 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(instances
+			(project "electophonograph"
+				(path "/b98ac240-e849-4918-859a-e2207bd77e73"
+					(page "3")
+				)
+			)
+		)
+	)
+	(sheet
+		(at 172.72 44.45)
+		(size 46.99 26.67)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0)
+		)
+		(uuid "ee029110-842d-468b-abf2-22348f91c54e")
+		(property "Sheetname" "Phono stage"
+			(at 172.72 43.7384 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "phono.kicad_sch"
+			(at 172.72 71.7046 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(instances
+			(project "electophonograph"
+				(path "/b98ac240-e849-4918-859a-e2207bd77e73"
+					(page "5")
+				)
+			)
+		)
+	)
+	(sheet
+		(at 170.18 111.76)
+		(size 48.26 22.86)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0)
+		)
+		(uuid "fbb7efaf-ab08-4724-8f42-4f79303ea03f")
+		(property "Sheetname" "Tone"
+			(at 170.18 111.0484 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "tone.kicad_sch"
+			(at 170.18 135.2046 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(instances
+			(project "electophonograph"
+				(path "/b98ac240-e849-4918-859a-e2207bd77e73"
+					(page "4")
+				)
+			)
+		)
+	)
+	(sheet_instances
+		(path "/"
+			(page "1")
+		)
+	)
+	(embedded_fonts no)
+)
