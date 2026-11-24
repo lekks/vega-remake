@@ -1,0 +1,212 @@
+(kicad_sch
+	(version 20260306)
+	(generator "eeschema")
+	(generator_version "10.0")
+	(uuid "6be390f6-f267-4e51-9a13-815e19c84d2d")
+	(paper "A3")
+	(lib_symbols)
+	(rectangle
+		(start 90 40)
+		(end 250 150)
+		(stroke
+			(width 0.254)
+			(type default)
+		)
+		(fill
+			(type none)
+		)
+		(uuid "35762418-ef71-4178-9ad4-8e177c871c6a")
+	)
+	(text "MOTOR_CABLE — интерфейс уточняется"
+		(exclude_from_sim no)
+		(at 105 205 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "2b30f909-0248-4694-b865-b518c98dc62d")
+	)
+	(text "SPEED_SENSOR — интерфейс уточняется"
+		(exclude_from_sim no)
+		(at 105 210 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "53efdbf4-ac39-435f-a1e0-6f1972153a46")
+	)
+	(text "ЭПУ Unitra G-602"
+		(exclude_from_sim no)
+		(at 100 50 0)
+		(effects
+			(font
+				(size 2 2)
+			)
+			(justify left)
+		)
+		(uuid "5425e3bc-3db5-4252-b1e3-da8c67a38f67")
+	)
+	(text "Порты логические; распиновку и соединение общих проводов проверить перед монтажом."
+		(exclude_from_sim no)
+		(at 70 170 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "65d648ba-0cd1-4b4e-a86e-aeefc7a52d65")
+	)
+	(text "Звукосниматель → фонокорректор\nДвигатель → модуль управления\nДатчик скорости → стабилизация скорости\nДатчик конца пластинки → модуль управления\nТипы датчиков и распиновки уточняются"
+		(exclude_from_sim no)
+		(at 105 90 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "7befc3b2-034f-4d92-9d8d-5d48919be951")
+	)
+	(text "END_SENSOR — интерфейс уточняется"
+		(exclude_from_sim no)
+		(at 105 215 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "fdf994d1-9e2b-400e-afba-f281dd692069")
+	)
+	(wire
+		(pts
+			(xy 70 210) (xy 100 210)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "07ef0db8-a5f3-4b09-b1f8-5566cbe43ce4")
+	)
+	(wire
+		(pts
+			(xy 70 215) (xy 100 215)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "0df0d61a-0a7d-45a8-896e-b602e7751c8f")
+	)
+	(wire
+		(pts
+			(xy 270 66) (xy 250 66)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "0e17291c-ecf4-4d8b-b93a-b7b329a3ea28")
+	)
+	(wire
+		(pts
+			(xy 270 74) (xy 250 74)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "54a8699f-333e-423b-91e7-99cc458b0bc0")
+	)
+	(wire
+		(pts
+			(xy 270 58) (xy 250 58)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "ba3d836f-3f2a-4d28-b648-6e57124bd9f4")
+	)
+	(wire
+		(pts
+			(xy 70 205) (xy 100 205)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "c0e84f72-583b-4a97-8ee1-eba5414ac087")
+	)
+	(hierarchical_label "L"
+		(shape passive)
+		(at 270 58 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "069dac87-0e67-419b-bddb-b488c1c1c117")
+	)
+	(hierarchical_label "R"
+		(shape passive)
+		(at 270 66 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "337c3d13-c2bf-49bb-9e79-4567b60e4c3c")
+	)
+	(hierarchical_label "GND"
+		(shape passive)
+		(at 270 74 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "3a9c53ca-1ad1-4ac7-bcd2-e2385ee6b435")
+	)
+	(hierarchical_label "SPEED_SENSOR"
+		(shape passive)
+		(at 70 210 0)
+		(effects
+			(font
+				(size 1 1)
+			)
+			(justify left)
+		)
+		(uuid "3d8fe679-06d3-4f05-9b9e-d5612c5f5e52")
+	)
+	(hierarchical_label "MOTOR_CABLE"
+		(shape passive)
+		(at 70 205 0)
+		(effects
+			(font
+				(size 1 1)
+			)
+			(justify left)
+		)
+		(uuid "a5f5b0b5-ccb3-4557-bb9d-aad7bf6b75ab")
+	)
+	(hierarchical_label "END_SENSOR"
+		(shape passive)
+		(at 70 215 0)
+		(effects
+			(font
+				(size 1 1)
+			)
+			(justify left)
+		)
+		(uuid "b0d3af76-36d8-44d9-a10c-0e205099e94b")
+	)
+)

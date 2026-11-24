@@ -3,6 +3,306 @@
 	(generator "eeschema")
 	(generator_version "10.0")
 	(uuid "1699f34f-7fe0-4f5e-acd8-12770a0ff34a")
-	(paper "A4")
+	(paper "A3")
 	(lib_symbols)
+	(rectangle
+		(start 90 40)
+		(end 250 150)
+		(stroke
+			(width 0.254)
+			(type default)
+		)
+		(fill
+			(type none)
+		)
+		(uuid "3759569d-9bbc-49fc-ac5c-a95e76e30fcf")
+	)
+	(text "MOTOR_SUPPLY — интерфейс уточняется"
+		(exclude_from_sim no)
+		(at 105 230 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "1858137e-7ae8-4603-b95b-294d810618fa")
+	)
+	(text "POWER_LED — интерфейс уточняется"
+		(exclude_from_sim no)
+		(at 105 210 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "2152a00e-1609-4739-93b9-b949c1135a08")
+	)
+	(text "T1: комплектный трансформатор\nВторичная: 15–0–15 В AC\nПервичная и мощность уточняются\nПитание остальных плат: не выбрано\nВход сети, кнопка, LED, подсветка и питание ЭПУ: интерфейсы\nВнутренняя схема БП и защита уточняются"
+		(exclude_from_sim no)
+		(at 105 90 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "27bedb7e-34ad-4961-913a-23ccf571e63c")
+	)
+	(text "Порты логические; распиновку и соединение общих проводов проверить перед монтажом."
+		(exclude_from_sim no)
+		(at 70 170 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "2edbfa12-7fba-421a-a56e-a0abf653267b")
+	)
+	(text "PANEL_LIGHT — интерфейс уточняется"
+		(exclude_from_sim no)
+		(at 105 215 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "368c1311-aa48-411c-8706-2e83d98474a7")
+	)
+	(text "POWER_BUTTON — интерфейс уточняется"
+		(exclude_from_sim no)
+		(at 105 205 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "40f683f3-54a7-4ddf-87d5-2b438ddfb4f0")
+	)
+	(text "MAINS_N — интерфейс уточняется"
+		(exclude_from_sim no)
+		(at 105 225 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "60fb53a6-cb67-4c8f-b1ec-ccdfbbab9da1")
+	)
+	(text "MAINS_L — интерфейс уточняется"
+		(exclude_from_sim no)
+		(at 105 220 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "c7f15e38-5c26-45ad-8e5f-bb1cb5aeed3e")
+	)
+	(text "Питание"
+		(exclude_from_sim no)
+		(at 100 50 0)
+		(effects
+			(font
+				(size 2 2)
+			)
+			(justify left)
+		)
+		(uuid "e7cd3ab3-0463-4c4f-9117-ee4573717156")
+	)
+	(wire
+		(pts
+			(xy 70 230) (xy 100 230)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "30113af4-ce23-4dfb-9aa9-e8a7745089e9")
+	)
+	(wire
+		(pts
+			(xy 70 210) (xy 100 210)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "4e0abe68-3aff-44b7-9038-f4c5d32ce4aa")
+	)
+	(wire
+		(pts
+			(xy 70 225) (xy 100 225)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "af109a12-2206-4a1d-850a-b0bf1f4dbcf0")
+	)
+	(wire
+		(pts
+			(xy 270 58) (xy 250 58)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "bdae2d51-a164-4a04-b70d-539e1e0838e4")
+	)
+	(wire
+		(pts
+			(xy 70 220) (xy 100 220)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "cf6d55b1-aa2d-4594-a161-ff701bccf869")
+	)
+	(wire
+		(pts
+			(xy 70 205) (xy 100 205)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "d3a54275-abee-411c-96be-57becdd8843a")
+	)
+	(wire
+		(pts
+			(xy 70 215) (xy 100 215)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "d8cffb5c-fcd5-4a16-8abe-cb80f3188914")
+	)
+	(wire
+		(pts
+			(xy 270 66) (xy 250 66)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "df95425c-563b-4442-979f-b2d3046c095f")
+	)
+	(wire
+		(pts
+			(xy 270 74) (xy 250 74)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "f24990f7-88b2-4de7-91bf-7e53e908786d")
+	)
+	(hierarchical_label "MAINS_L"
+		(shape passive)
+		(at 70 220 0)
+		(effects
+			(font
+				(size 1 1)
+			)
+			(justify left)
+		)
+		(uuid "05217672-4e32-46be-8a97-f506ccea5fde")
+	)
+	(hierarchical_label "POWER_BUTTON"
+		(shape passive)
+		(at 70 205 0)
+		(effects
+			(font
+				(size 1 1)
+			)
+			(justify left)
+		)
+		(uuid "34a09af7-efa4-497d-8ae9-3f44cb24ec72")
+	)
+	(hierarchical_label "MAINS_N"
+		(shape passive)
+		(at 70 225 0)
+		(effects
+			(font
+				(size 1 1)
+			)
+			(justify left)
+		)
+		(uuid "505e796b-707d-4664-a8d2-d650f2396e87")
+	)
+	(hierarchical_label "POWER_LED"
+		(shape passive)
+		(at 70 210 0)
+		(effects
+			(font
+				(size 1 1)
+			)
+			(justify left)
+		)
+		(uuid "656b2fd1-5fcd-4f92-8dfb-2c8c31ae08e2")
+	)
+	(hierarchical_label "SEC_A"
+		(shape passive)
+		(at 270 58 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "9a9b0e15-cf1a-4995-b30e-5bac7b0eab95")
+	)
+	(hierarchical_label "SEC_B"
+		(shape passive)
+		(at 270 74 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "af0cb5b3-8feb-4a2f-82d3-dfeea1019e03")
+	)
+	(hierarchical_label "PANEL_LIGHT"
+		(shape passive)
+		(at 70 215 0)
+		(effects
+			(font
+				(size 1 1)
+			)
+			(justify left)
+		)
+		(uuid "bbd81d25-cfc5-424e-9206-1cbdd2f5a9fe")
+	)
+	(hierarchical_label "SEC_CT"
+		(shape passive)
+		(at 270 66 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "ca2b2606-5972-44e8-b081-4080a7127162")
+	)
+	(hierarchical_label "MOTOR_SUPPLY"
+		(shape passive)
+		(at 70 230 0)
+		(effects
+			(font
+				(size 1 1)
+			)
+			(justify left)
+		)
+		(uuid "ec47d34c-24df-4e87-9161-d570c1d5d9b6")
+	)
 )

@@ -1,0 +1,316 @@
+(kicad_sch
+	(version 20260306)
+	(generator "eeschema")
+	(generator_version "10.0")
+	(uuid "6cb3123b-6b17-4a2c-8cd5-c3266ccce063")
+	(paper "A3")
+	(lib_symbols)
+	(rectangle
+		(start 90 40)
+		(end 250 150)
+		(stroke
+			(width 0.254)
+			(type default)
+		)
+		(fill
+			(type none)
+		)
+		(uuid "03f76a5d-8202-4b8e-b1e2-56d676734856")
+	)
+	(text "Селектор WM-046"
+		(exclude_from_sim no)
+		(at 100 50 0)
+		(effects
+			(font
+				(size 2 2)
+			)
+			(justify left)
+		)
+		(uuid "1dd829aa-3701-47bb-873b-e19d099caaac")
+	)
+	(text "SELECT_CONTROL — интерфейс уточняется"
+		(exclude_from_sim no)
+		(at 105 245 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "359a9055-3f31-4404-ac1f-3728a6da53a1")
+	)
+	(text "Релейный селектор: 4 стереовхода\nВходы 3 и 4: резерв\n7–30 В DC или 6–20 В AC\nУправление и разъёмы уточнить"
+		(exclude_from_sim no)
+		(at 105 90 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "3c716acd-ea19-404a-94a0-68f8f6ea48ef")
+	)
+	(text "Порты логические; распиновку и соединение общих проводов проверить перед монтажом."
+		(exclude_from_sim no)
+		(at 70 170 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "dc90e486-de50-4072-a363-f429816af1b2")
+	)
+	(wire
+		(pts
+			(xy 70 58) (xy 90 58)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "454ae9fe-46b1-45a4-9251-accd611228d9")
+	)
+	(wire
+		(pts
+			(xy 70 245) (xy 100 245)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "59587759-68aa-4740-be96-7e5b3eda66f7")
+	)
+	(wire
+		(pts
+			(xy 270 58) (xy 250 58)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "5bf0cd44-526f-4441-8b6e-cc8031adeddc")
+	)
+	(wire
+		(pts
+			(xy 270 74) (xy 250 74)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "84509299-01b5-427c-914a-3c9506c040c4")
+	)
+	(wire
+		(pts
+			(xy 70 98) (xy 90 98)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "8640de46-cbda-4847-b43a-0f9e4d79c677")
+	)
+	(wire
+		(pts
+			(xy 70 82) (xy 90 82)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "aa7c9b9a-fe38-4bda-9965-d1180b9df005")
+	)
+	(wire
+		(pts
+			(xy 70 74) (xy 90 74)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "b7aed3dd-142f-4b45-b7a8-978db551f617")
+	)
+	(wire
+		(pts
+			(xy 70 66) (xy 90 66)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "b9aa9c96-b166-4bbb-afc2-75e99a2cdec0")
+	)
+	(wire
+		(pts
+			(xy 70 106) (xy 90 106)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "cc2dfcc7-4e43-4ed4-97eb-f4225bed2eba")
+	)
+	(wire
+		(pts
+			(xy 70 114) (xy 90 114)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "d8c9b07e-323f-458f-8efc-dd767cb96874")
+	)
+	(wire
+		(pts
+			(xy 70 90) (xy 90 90)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "dec1ab60-a264-4f87-a077-87b000993d41")
+	)
+	(wire
+		(pts
+			(xy 270 66) (xy 250 66)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "ec5266ec-b50b-42b0-a2ec-ef252742eb07")
+	)
+	(hierarchical_label "IN1_GND"
+		(shape passive)
+		(at 70 74 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "1608ec84-03ee-4363-9168-0f2e0419176f")
+	)
+	(hierarchical_label "SELECT_CONTROL"
+		(shape passive)
+		(at 70 245 0)
+		(effects
+			(font
+				(size 1 1)
+			)
+			(justify left)
+		)
+		(uuid "347c1d74-b9bd-4c80-b933-eca4198741f2")
+	)
+	(hierarchical_label "IN1_R"
+		(shape passive)
+		(at 70 66 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "42dd5d0b-93df-4710-a921-1c825460a5d5")
+	)
+	(hierarchical_label "IN2_L"
+		(shape passive)
+		(at 70 82 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "5cb1ef71-441a-40a2-af16-ab9947b7ed2e")
+	)
+	(hierarchical_label "OUT_L"
+		(shape passive)
+		(at 270 58 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "6832096e-c1fa-4d71-a0c3-6bde44618dde")
+	)
+	(hierarchical_label "PWR_A"
+		(shape passive)
+		(at 70 106 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "83905b06-9279-4b93-b2a3-8311db69c2f8")
+	)
+	(hierarchical_label "IN2_R"
+		(shape passive)
+		(at 70 90 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "afa4b9d7-305e-4630-87f1-6d118a89693c")
+	)
+	(hierarchical_label "PWR_B"
+		(shape passive)
+		(at 70 114 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "cb478f22-9b10-47f9-9ed3-783367025386")
+	)
+	(hierarchical_label "OUT_GND"
+		(shape passive)
+		(at 270 74 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "cc89cf6b-b2ba-4a6c-98ca-6270f9c5e359")
+	)
+	(hierarchical_label "IN2_GND"
+		(shape passive)
+		(at 70 98 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "d6634e05-4796-49d9-83c3-7ca32d69e5be")
+	)
+	(hierarchical_label "OUT_R"
+		(shape passive)
+		(at 270 66 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "e3915aa3-e60a-4e77-8f39-8bc4de742b67")
+	)
+	(hierarchical_label "IN1_L"
+		(shape passive)
+		(at 70 58 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "edf53c05-bcc4-4189-a748-9ebffd7e36dc")
+	)
+)

@@ -389,7 +389,38 @@
       "sort_asc": true,
       "sort_field": "Reference"
     },
-    "bus_aliases": {},
+    "bus_aliases": {
+      "LINE_OUT": [
+        "LINE_OUT_L",
+        "LINE_OUT_R",
+        "LINE_OUT_GND"
+      ],
+      "MEDIA": [
+        "MEDIA_L",
+        "MEDIA_R",
+        "MEDIA_GND"
+      ],
+      "PHONO": [
+        "PHONO_L",
+        "PHONO_R",
+        "PHONO_GND"
+      ],
+      "PHONO_AC": [
+        "PHONO_AC_A",
+        "PHONO_AC_CT",
+        "PHONO_AC_B"
+      ],
+      "PICKUP": [
+        "PICKUP_L",
+        "PICKUP_R",
+        "PICKUP_GND"
+      ],
+      "SELECTED": [
+        "SELECTED_L",
+        "SELECTED_R",
+        "SELECTED_GND"
+      ]
+    },
     "connection_grid_size": 50.0,
     "drawing": {
       "dashed_lines_dash_length_ratio": 12.0,
@@ -439,20 +470,44 @@
       "electophonograph"
     ],
     [
-      "243a8945-f50b-4735-a2cf-623c3518f882",
-      "Power"
+      "9155fc7c-7203-4064-a3d8-e00cd8fce7bf",
+      "ЭПУ Unitra G-602"
     ],
     [
-      "aa9de4d9-9c83-4169-9a00-ad614120ae4b",
-      "Multimedia"
+      "d2d72a58-1fca-445d-8567-5253e1ac7e26",
+      "Фонокорректор"
     ],
     [
-      "fbb7efaf-ab08-4724-8f42-4f79303ea03f",
-      "Tone"
+      "2ec68325-2f3b-491d-8974-fc4cb446e4f9",
+      "Мультимедиа"
     ],
     [
-      "ee029110-842d-468b-abf2-22348f91c54e",
-      "Phono stage"
+      "68a7e182-34db-4fac-8491-4146dfe852e8",
+      "Селектор WM-046"
+    ],
+    [
+      "6cc608dc-d1c0-4afc-941a-95d725ed0b70",
+      "Темброблок LM1036N"
+    ],
+    [
+      "8f6d2c55-d197-438b-918d-bcd2ceb57e25",
+      "Питание"
+    ],
+    [
+      "0492a637-2ceb-4f99-a186-23b2f7fbc0a1",
+      "Выходные RCA"
+    ],
+    [
+      "a240965f-744a-48c0-8400-bac77ffc49c4",
+      "Органы управления / передняя панель"
+    ],
+    [
+      "78d2b217-b6e1-4024-8a4a-7e94f40b995e",
+      "Управление G-602 / скорость"
+    ],
+    [
+      "96bc078b-6955-4163-aa70-cb36d4c2b27d",
+      "Кнопки Unitra G-602"
     ]
   ],
   "text_variables": {},
