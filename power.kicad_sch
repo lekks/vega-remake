@@ -28,7 +28,7 @@
 		)
 		(uuid "1858137e-7ae8-4603-b95b-294d810618fa")
 	)
-	(text "POWER_LED — интерфейс уточняется"
+	(text "POWER_LED{PLUS MINUS} — интерфейс уточняется"
 		(exclude_from_sim no)
 		(at 105 210 0)
 		(effects
@@ -61,7 +61,7 @@
 		)
 		(uuid "2edbfa12-7fba-421a-a56e-a0abf653267b")
 	)
-	(text "PANEL_LIGHT — интерфейс уточняется"
+	(text "PANEL_LIGHT{PLUS MINUS} — интерфейс уточняется"
 		(exclude_from_sim no)
 		(at 105 215 0)
 		(effects
@@ -72,7 +72,7 @@
 		)
 		(uuid "368c1311-aa48-411c-8706-2e83d98474a7")
 	)
-	(text "POWER_BUTTON — интерфейс уточняется"
+	(text "POWER_BUTTON{A B} — интерфейс уточняется"
 		(exclude_from_sim no)
 		(at 105 205 0)
 		(effects
@@ -105,6 +105,17 @@
 		)
 		(uuid "c7f15e38-5c26-45ad-8e5f-bb1cb5aeed3e")
 	)
+	(text "VU-метр: выход 7–12 В DC, ток нагрузки уточнить; возврат PGND."
+		(exclude_from_sim no)
+		(at 105 265 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "da7ab101-3183-4d78-a42d-93d0f783ffcf")
+	)
 	(text "Питание"
 		(exclude_from_sim no)
 		(at 100 50 0)
@@ -116,6 +127,16 @@
 		)
 		(uuid "e7cd3ab3-0463-4c4f-9117-ee4573717156")
 	)
+	(bus
+		(pts
+			(xy 270 66) (xy 250 66)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "29bec91a-79c1-46b9-8c2e-3dc7168cbfd9")
+	)
 	(wire
 		(pts
 			(xy 70 230) (xy 100 230)
@@ -126,7 +147,17 @@
 		)
 		(uuid "30113af4-ce23-4dfb-9aa9-e8a7745089e9")
 	)
-	(wire
+	(bus
+		(pts
+			(xy 70 265) (xy 100 265)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "3192240a-a624-40a0-807b-98df706ed53f")
+	)
+	(bus
 		(pts
 			(xy 70 210) (xy 100 210)
 		)
@@ -148,16 +179,6 @@
 	)
 	(wire
 		(pts
-			(xy 270 58) (xy 250 58)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "bdae2d51-a164-4a04-b70d-539e1e0838e4")
-	)
-	(wire
-		(pts
 			(xy 70 220) (xy 100 220)
 		)
 		(stroke
@@ -166,7 +187,7 @@
 		)
 		(uuid "cf6d55b1-aa2d-4594-a161-ff701bccf869")
 	)
-	(wire
+	(bus
 		(pts
 			(xy 70 205) (xy 100 205)
 		)
@@ -176,7 +197,7 @@
 		)
 		(uuid "d3a54275-abee-411c-96be-57becdd8843a")
 	)
-	(wire
+	(bus
 		(pts
 			(xy 70 215) (xy 100 215)
 		)
@@ -185,26 +206,6 @@
 			(type default)
 		)
 		(uuid "d8cffb5c-fcd5-4a16-8abe-cb80f3188914")
-	)
-	(wire
-		(pts
-			(xy 270 66) (xy 250 66)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "df95425c-563b-4442-979f-b2d3046c095f")
-	)
-	(wire
-		(pts
-			(xy 270 74) (xy 250 74)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "f24990f7-88b2-4de7-91bf-7e53e908786d")
 	)
 	(hierarchical_label "MAINS_L"
 		(shape passive)
@@ -217,7 +218,7 @@
 		)
 		(uuid "05217672-4e32-46be-8a97-f506ccea5fde")
 	)
-	(hierarchical_label "POWER_BUTTON"
+	(hierarchical_label "POWER_BUTTON{A B}"
 		(shape passive)
 		(at 70 205 0)
 		(effects
@@ -239,7 +240,7 @@
 		)
 		(uuid "505e796b-707d-4664-a8d2-d650f2396e87")
 	)
-	(hierarchical_label "POWER_LED"
+	(hierarchical_label "POWER_LED{PLUS MINUS}"
 		(shape passive)
 		(at 70 210 0)
 		(effects
@@ -250,29 +251,7 @@
 		)
 		(uuid "656b2fd1-5fcd-4f92-8dfb-2c8c31ae08e2")
 	)
-	(hierarchical_label "SEC_A"
-		(shape passive)
-		(at 270 58 180)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right)
-		)
-		(uuid "9a9b0e15-cf1a-4995-b30e-5bac7b0eab95")
-	)
-	(hierarchical_label "SEC_B"
-		(shape passive)
-		(at 270 74 180)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right)
-		)
-		(uuid "af0cb5b3-8feb-4a2f-82d3-dfeea1019e03")
-	)
-	(hierarchical_label "PANEL_LIGHT"
+	(hierarchical_label "PANEL_LIGHT{PLUS MINUS}"
 		(shape passive)
 		(at 70 215 0)
 		(effects
@@ -283,7 +262,7 @@
 		)
 		(uuid "bbd81d25-cfc5-424e-9206-1cbdd2f5a9fe")
 	)
-	(hierarchical_label "SEC_CT"
+	(hierarchical_label "PHONO_AC{A CT B}"
 		(shape passive)
 		(at 270 66 180)
 		(effects
@@ -293,6 +272,17 @@
 			(justify right)
 		)
 		(uuid "ca2b2606-5972-44e8-b081-4080a7127162")
+	)
+	(hierarchical_label "VU_POWER{VCC PGND}"
+		(shape passive)
+		(at 70 265 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "dcac8e9e-ee4a-4abc-b5d6-fe02d07029ad")
 	)
 	(hierarchical_label "MOTOR_SUPPLY"
 		(shape passive)

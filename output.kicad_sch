@@ -50,7 +50,7 @@
 		)
 		(uuid "f6cca2ad-75cf-4c6e-a2d4-8fdbce514d19")
 	)
-	(wire
+	(bus
 		(pts
 			(xy 70 66) (xy 90 66)
 		)
@@ -58,51 +58,9 @@
 			(width 0)
 			(type default)
 		)
-		(uuid "58d7d2e5-5d91-4962-ba73-3c5b6ebeb57d")
+		(uuid "785195f1-a4fa-407d-a7cb-a6eb3ba3d5dc")
 	)
-	(wire
-		(pts
-			(xy 70 58) (xy 90 58)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "93d476f5-39ff-4dea-97d3-f03e80628582")
-	)
-	(wire
-		(pts
-			(xy 70 74) (xy 90 74)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "cdf8c06f-f44f-445f-a938-dea5215c8c4a")
-	)
-	(hierarchical_label "GND"
-		(shape passive)
-		(at 70 74 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left)
-		)
-		(uuid "908ddaf1-e2da-484b-9299-eaa5b2e1ecd3")
-	)
-	(hierarchical_label "L"
-		(shape passive)
-		(at 70 58 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left)
-		)
-		(uuid "e12b998d-b9ca-497f-9145-b8a177285849")
-	)
-	(hierarchical_label "R"
+	(hierarchical_label "LINE_OUT{L R GND}"
 		(shape passive)
 		(at 70 66 0)
 		(effects

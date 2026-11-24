@@ -1,0 +1,149 @@
+(kicad_sch
+	(version 20260306)
+	(generator "eeschema")
+	(generator_version "10.0")
+	(uuid "fd84b134-74f4-4946-a415-72d99fefffc1")
+	(paper "A4")
+	(lib_symbols)
+	(text "SGND и PGND не объединены внешней перемычкой."
+		(exclude_from_sim no)
+		(at 30 120 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "57912929-5acd-4897-830f-0a3c91763120")
+	)
+	(text "Площадки на плате (порядок по фото):"
+		(exclude_from_sim no)
+		(at 105 45 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "8bba61d8-f751-4648-be47-3bcf7484f624")
+	)
+	(text "Шкала и чувствительность не откалиброваны."
+		(exclude_from_sim no)
+		(at 30 155 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "a4d5769d-9c02-4415-a70f-4a7f9ff6efb5")
+	)
+	(text "Аудио: L → LIN; R → RIN; GND → SGND."
+		(exclude_from_sim no)
+		(at 30 100 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "a734a477-14e3-4ced-888f-9a57c6e2bcc9")
+	)
+	(text "LIN / PGND / RIN / SGND / +12V"
+		(exclude_from_sim no)
+		(at 105 55 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "b2c3266d-325b-4a91-835b-0eab8b2b0597")
+	)
+	(text "Питание: VCC → +12V; PGND → PGND."
+		(exclude_from_sim no)
+		(at 30 110 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "be4a75ba-fc79-46cd-bfef-9eaa739fa87a")
+	)
+	(text "Стереофонический светодиодный VU-метр"
+		(exclude_from_sim no)
+		(at 30 25 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "c5741832-bb49-4ca4-a98e-1a0d0104ff7f")
+	)
+	(text "Фактический ток и допустимый входной уровень уточнить."
+		(exclude_from_sim no)
+		(at 30 145 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "c6b22d2e-7e80-4b98-9b01-20c08d402d99")
+	)
+	(text "На карточке: 7–12 В; источник способен отдавать более 100 мА."
+		(exclude_from_sim no)
+		(at 30 135 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "e3bd84c4-25fc-4451-8094-179f9a14babe")
+	)
+	(bus
+		(pts
+			(xy 30 50) (xy 100 50)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "2982b177-2b4e-4e6b-b0db-007bf31ad722")
+	)
+	(bus
+		(pts
+			(xy 30 75) (xy 100 75)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "2fb53765-99a6-477b-9a41-fae7bf663452")
+	)
+	(hierarchical_label "VU_POWER{VCC PGND}"
+		(shape passive)
+		(at 30 75 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "389d893d-c8ad-4763-b276-0a9d1c12bab7")
+	)
+	(hierarchical_label "LINE_OUT{L R GND}"
+		(shape passive)
+		(at 30 50 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "fa373217-153e-4df8-ba88-4b0d4e16ef00")
+	)
+)

@@ -50,7 +50,7 @@
 		)
 		(uuid "d5b5e516-851a-4dfd-a5e6-1725dd2b5ab1")
 	)
-	(wire
+	(bus
 		(pts
 			(xy 30 45) (xy 85 45)
 		)
@@ -60,7 +60,7 @@
 		)
 		(uuid "4862e196-5eff-4afb-b8d1-7b87ca1546f7")
 	)
-	(wire
+	(bus
 		(pts
 			(xy 30 69) (xy 85 69)
 		)
@@ -80,7 +80,7 @@
 		)
 		(uuid "ba824888-a7b7-4410-98a7-45590597b6cb")
 	)
-	(wire
+	(bus
 		(pts
 			(xy 30 57) (xy 85 57)
 		)
@@ -100,7 +100,7 @@
 		)
 		(uuid "f404e3ce-8ed7-4fc7-a74c-61da1638600c")
 	)
-	(hierarchical_label "END_SENSOR"
+	(hierarchical_label "END_SENSOR{TBD}"
 		(shape passive)
 		(at 30 69 0)
 		(effects
@@ -122,7 +122,7 @@
 		)
 		(uuid "1b81446b-c66b-4a7b-abcf-879195678adc")
 	)
-	(hierarchical_label "MOTOR_CABLE"
+	(hierarchical_label "MOTOR_CABLE{TBD}"
 		(shape passive)
 		(at 30 45 0)
 		(effects
@@ -133,7 +133,7 @@
 		)
 		(uuid "20269e73-5be3-4a43-a866-5f4ccdcaf315")
 	)
-	(hierarchical_label "SPEED_SENSOR"
+	(hierarchical_label "SPEED_SENSOR{TBD}"
 		(shape passive)
 		(at 30 57 0)
 		(effects

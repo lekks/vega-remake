@@ -101,7 +101,7 @@
 		)
 		(uuid "ef8b7b50-7675-4b03-8b3c-b5a09f0b9905")
 	)
-	(text "SA1 — Выбор входа"
+	(text "A1 — Панель выбора входа WM-046"
 		(exclude_from_sim no)
 		(at 110 145 0)
 		(effects
@@ -288,7 +288,7 @@
 		)
 		(uuid "b1471489-d381-49b6-b00b-516d168dcf89")
 	)
-	(text "4 положения; тип и число проводов уточнить"
+	(text "Поворотный переключатель и 4 LED; комплектный кабель"
 		(exclude_from_sim no)
 		(at 110 152 0)
 		(effects
@@ -299,7 +299,18 @@
 		)
 		(uuid "b3d7e51f-49fb-4fb6-9847-28b55ee33869")
 	)
-	(wire
+	(text "SELECT_CONTROL{TBD}: комплектный кабель между панелью и релейной платой.\nНазначения контактов и число жил уточнить по разъёмам."
+		(exclude_from_sim no)
+		(at 25 280 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "c4eb5858-671d-4924-a199-e9d2ab486fe2")
+	)
+	(bus
 		(pts
 			(xy 65 172) (xy 100 172)
 		)
@@ -319,7 +330,7 @@
 		)
 		(uuid "356e7e25-3459-491d-8451-205ab51c8e9c")
 	)
-	(wire
+	(bus
 		(pts
 			(xy 65 146) (xy 100 146)
 		)
@@ -329,7 +340,7 @@
 		)
 		(uuid "7515eb21-c6b3-4371-9c62-ae5274941ad9")
 	)
-	(wire
+	(bus
 		(pts
 			(xy 65 224) (xy 100 224)
 		)
@@ -339,7 +350,7 @@
 		)
 		(uuid "7afd28db-939e-4050-9e4e-efc28a100c71")
 	)
-	(wire
+	(bus
 		(pts
 			(xy 65 198) (xy 100 198)
 		)
@@ -390,7 +401,7 @@
 		)
 		(uuid "01d681e2-014b-42b4-89ab-67d0c8b95d84")
 	)
-	(hierarchical_label "POWER_BUTTON"
+	(hierarchical_label "POWER_BUTTON{A B}"
 		(shape passive)
 		(at 65 172 0)
 		(effects
@@ -423,7 +434,7 @@
 		)
 		(uuid "39e2a5c7-6a7b-4d6e-b853-dc4c04f3e202")
 	)
-	(hierarchical_label "POWER_LED"
+	(hierarchical_label "POWER_LED{PLUS MINUS}"
 		(shape passive)
 		(at 65 198 0)
 		(effects
@@ -445,7 +456,7 @@
 		)
 		(uuid "83c5b2c6-3064-43cc-91fb-2862c929d6c1")
 	)
-	(hierarchical_label "SELECT_CONTROL"
+	(hierarchical_label "SELECT_CONTROL{TBD}"
 		(shape passive)
 		(at 65 146 0)
 		(effects
@@ -456,7 +467,7 @@
 		)
 		(uuid "b983750b-dcb7-486a-b877-92439d856756")
 	)
-	(hierarchical_label "PANEL_LIGHT"
+	(hierarchical_label "PANEL_LIGHT{PLUS MINUS}"
 		(shape passive)
 		(at 65 224 0)
 		(effects

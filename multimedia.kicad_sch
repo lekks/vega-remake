@@ -50,27 +50,7 @@
 		)
 		(uuid "e102701d-cea1-4234-88f2-4ace6739cd96")
 	)
-	(wire
-		(pts
-			(xy 270 74) (xy 250 74)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "1d9e8888-7848-48e4-8289-a22b308b36df")
-	)
-	(wire
-		(pts
-			(xy 270 58) (xy 250 58)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "6c6e1f14-6503-4ec5-9094-0bd588e21b3e")
-	)
-	(wire
+	(bus
 		(pts
 			(xy 270 66) (xy 250 66)
 		)
@@ -78,7 +58,7 @@
 			(width 0)
 			(type default)
 		)
-		(uuid "7e6d5ac3-ce8b-4cf7-ae54-0c0e3f14b29b")
+		(uuid "2e9122e4-8c37-4901-989a-bb46ca75608f")
 	)
 	(wire
 		(pts
@@ -100,17 +80,6 @@
 		)
 		(uuid "de8e3399-76c3-4994-84a1-154aeb46b3e1")
 	)
-	(hierarchical_label "OUT_L"
-		(shape passive)
-		(at 270 58 180)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right)
-		)
-		(uuid "4b4d1067-0af5-4179-88f2-e77800f169af")
-	)
 	(hierarchical_label "GND"
 		(shape passive)
 		(at 70 66 0)
@@ -122,7 +91,7 @@
 		)
 		(uuid "64c28899-ebdb-4dfa-adf0-1bdddb794a1e")
 	)
-	(hierarchical_label "OUT_R"
+	(hierarchical_label "MEDIA{L R GND}"
 		(shape passive)
 		(at 270 66 180)
 		(effects
@@ -143,16 +112,5 @@
 			(justify left)
 		)
 		(uuid "a0d65d57-28f0-4802-a70e-90ca1ccc91e9")
-	)
-	(hierarchical_label "OUT_GND"
-		(shape passive)
-		(at 270 74 180)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right)
-		)
-		(uuid "aa3b8f56-9bd1-4a5d-a730-2d36d563589e")
 	)
 )

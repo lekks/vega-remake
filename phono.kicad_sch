@@ -50,37 +50,7 @@
 		)
 		(uuid "eacd150a-3bc3-404e-a4a8-5a56977538a8")
 	)
-	(wire
-		(pts
-			(xy 70 58) (xy 90 58)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "15c8efb1-5591-4226-add3-488da2e77fcf")
-	)
-	(wire
-		(pts
-			(xy 270 58) (xy 250 58)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "2740f096-1309-4567-b93a-d1e53b472869")
-	)
-	(wire
-		(pts
-			(xy 70 74) (xy 90 74)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "3cbf4e7f-e0e4-4ce6-879b-b5c2f7e4365c")
-	)
-	(wire
+	(bus
 		(pts
 			(xy 270 66) (xy 250 66)
 		)
@@ -88,49 +58,9 @@
 			(width 0)
 			(type default)
 		)
-		(uuid "5bc12283-651c-4bc4-ad9e-af2b521cea1e")
+		(uuid "5f025239-7ff7-4c83-9a3e-2228cf685551")
 	)
-	(wire
-		(pts
-			(xy 70 66) (xy 90 66)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "63d79549-f263-49d8-b7c2-74fb0858d1c8")
-	)
-	(wire
-		(pts
-			(xy 70 82) (xy 90 82)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "719945cc-0da1-48f7-82a3-35779d3de3de")
-	)
-	(wire
-		(pts
-			(xy 270 74) (xy 250 74)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "81106561-e801-4165-8e97-cd9f943da4d2")
-	)
-	(wire
-		(pts
-			(xy 70 98) (xy 90 98)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "de0891e7-019c-4bb7-9b1f-c1e2aa07c997")
-	)
-	(wire
+	(bus
 		(pts
 			(xy 70 90) (xy 90 90)
 		)
@@ -138,53 +68,19 @@
 			(width 0)
 			(type default)
 		)
-		(uuid "e1ea915f-b068-4586-bce2-5d841829a2e5")
+		(uuid "a7446351-d1c1-41fd-aac7-3a4c84c76038")
 	)
-	(hierarchical_label "IN_GND"
-		(shape passive)
-		(at 70 74 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left)
+	(bus
+		(pts
+			(xy 70 66) (xy 90 66)
 		)
-		(uuid "17adaabb-a451-4f90-aea8-7ed0d99eeede")
-	)
-	(hierarchical_label "AC_A"
-		(shape passive)
-		(at 70 82 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left)
+		(stroke
+			(width 0)
+			(type default)
 		)
-		(uuid "344ff6c1-cb34-4dd5-aca1-ed25f1af72fd")
+		(uuid "cd0320b5-74b4-40c2-be19-e8671b4450f8")
 	)
-	(hierarchical_label "OUT_L"
-		(shape passive)
-		(at 270 58 180)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right)
-		)
-		(uuid "3ad53661-d868-4d0c-b4c2-a16e66f99d6d")
-	)
-	(hierarchical_label "AC_B"
-		(shape passive)
-		(at 70 98 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left)
-		)
-		(uuid "5298b2fe-ca01-4860-ba6f-700708ae2efa")
-	)
-	(hierarchical_label "OUT_R"
+	(hierarchical_label "PHONO{L R GND}"
 		(shape passive)
 		(at 270 66 180)
 		(effects
@@ -195,18 +91,7 @@
 		)
 		(uuid "676e79ff-d2dd-4de9-8b4e-c591b6d7548e")
 	)
-	(hierarchical_label "IN_L"
-		(shape passive)
-		(at 70 58 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left)
-		)
-		(uuid "75e379a8-ff6a-46c3-b189-441a036ff493")
-	)
-	(hierarchical_label "IN_R"
+	(hierarchical_label "PICKUP{L R GND}"
 		(shape passive)
 		(at 70 66 0)
 		(effects
@@ -217,18 +102,7 @@
 		)
 		(uuid "9b804266-a24e-4adf-b1a3-844d8ff4f21f")
 	)
-	(hierarchical_label "OUT_GND"
-		(shape passive)
-		(at 270 74 180)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right)
-		)
-		(uuid "da20d755-d343-4705-9eb0-7e73c37b5795")
-	)
-	(hierarchical_label "CT"
+	(hierarchical_label "PHONO_AC{A CT B}"
 		(shape passive)
 		(at 70 90 0)
 		(effects

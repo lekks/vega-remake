@@ -17,7 +17,7 @@
 		)
 		(uuid "35762418-ef71-4178-9ad4-8e177c871c6a")
 	)
-	(text "MOTOR_CABLE — интерфейс уточняется"
+	(text "MOTOR_CABLE{TBD} — интерфейс уточняется"
 		(exclude_from_sim no)
 		(at 105 205 0)
 		(effects
@@ -28,7 +28,7 @@
 		)
 		(uuid "2b30f909-0248-4694-b865-b518c98dc62d")
 	)
-	(text "SPEED_SENSOR — интерфейс уточняется"
+	(text "SPEED_SENSOR{TBD} — интерфейс уточняется"
 		(exclude_from_sim no)
 		(at 105 210 0)
 		(effects
@@ -72,7 +72,7 @@
 		)
 		(uuid "7befc3b2-034f-4d92-9d8d-5d48919be951")
 	)
-	(text "END_SENSOR — интерфейс уточняется"
+	(text "END_SENSOR{TBD} — интерфейс уточняется"
 		(exclude_from_sim no)
 		(at 105 215 0)
 		(effects
@@ -83,7 +83,7 @@
 		)
 		(uuid "fdf994d1-9e2b-400e-afba-f281dd692069")
 	)
-	(wire
+	(bus
 		(pts
 			(xy 70 210) (xy 100 210)
 		)
@@ -93,7 +93,7 @@
 		)
 		(uuid "07ef0db8-a5f3-4b09-b1f8-5566cbe43ce4")
 	)
-	(wire
+	(bus
 		(pts
 			(xy 70 215) (xy 100 215)
 		)
@@ -103,7 +103,7 @@
 		)
 		(uuid "0df0d61a-0a7d-45a8-896e-b602e7751c8f")
 	)
-	(wire
+	(bus
 		(pts
 			(xy 270 66) (xy 250 66)
 		)
@@ -111,29 +111,9 @@
 			(width 0)
 			(type default)
 		)
-		(uuid "0e17291c-ecf4-4d8b-b93a-b7b329a3ea28")
+		(uuid "8037336f-8dee-4a93-9082-a22df38050d2")
 	)
-	(wire
-		(pts
-			(xy 270 74) (xy 250 74)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "54a8699f-333e-423b-91e7-99cc458b0bc0")
-	)
-	(wire
-		(pts
-			(xy 270 58) (xy 250 58)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "ba3d836f-3f2a-4d28-b648-6e57124bd9f4")
-	)
-	(wire
+	(bus
 		(pts
 			(xy 70 205) (xy 100 205)
 		)
@@ -143,18 +123,7 @@
 		)
 		(uuid "c0e84f72-583b-4a97-8ee1-eba5414ac087")
 	)
-	(hierarchical_label "L"
-		(shape passive)
-		(at 270 58 180)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right)
-		)
-		(uuid "069dac87-0e67-419b-bddb-b488c1c1c117")
-	)
-	(hierarchical_label "R"
+	(hierarchical_label "PICKUP{L R GND}"
 		(shape passive)
 		(at 270 66 180)
 		(effects
@@ -165,18 +134,7 @@
 		)
 		(uuid "337c3d13-c2bf-49bb-9e79-4567b60e4c3c")
 	)
-	(hierarchical_label "GND"
-		(shape passive)
-		(at 270 74 180)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right)
-		)
-		(uuid "3a9c53ca-1ad1-4ac7-bcd2-e2385ee6b435")
-	)
-	(hierarchical_label "SPEED_SENSOR"
+	(hierarchical_label "SPEED_SENSOR{TBD}"
 		(shape passive)
 		(at 70 210 0)
 		(effects
@@ -187,7 +145,7 @@
 		)
 		(uuid "3d8fe679-06d3-4f05-9b9e-d5612c5f5e52")
 	)
-	(hierarchical_label "MOTOR_CABLE"
+	(hierarchical_label "MOTOR_CABLE{TBD}"
 		(shape passive)
 		(at 70 205 0)
 		(effects
@@ -198,7 +156,7 @@
 		)
 		(uuid "a5f5b0b5-ccb3-4557-bb9d-aad7bf6b75ab")
 	)
-	(hierarchical_label "END_SENSOR"
+	(hierarchical_label "END_SENSOR{TBD}"
 		(shape passive)
 		(at 70 215 0)
 		(effects
