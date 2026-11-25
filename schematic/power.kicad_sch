@@ -3,19 +3,751 @@
 	(generator "eeschema")
 	(generator_version "10.0")
 	(uuid "1699f34f-7fe0-4f5e-acd8-12770a0ff34a")
-	(paper "A3")
-	(lib_symbols)
-	(rectangle
-		(start 90 40)
-		(end 250 150)
-		(stroke
-			(width 0.254)
-			(type default)
+	(paper "A2")
+	(lib_symbols
+		(symbol "Vega108_T2"
+			(pin_names
+				(offset 0.5)
+				(hide yes)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board no)
+			(in_pos_files yes)
+			(duplicate_pin_numbers_are_jumpers no)
+			(property "Reference" "T"
+				(at 0 59.69 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(effects
+					(font
+						(size 1 1)
+					)
+				)
+			)
+			(property "Value" "Vega108_T2"
+				(at 0 55.88 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(effects
+					(font
+						(size 1 1)
+					)
+				)
+			)
+			(property "Footprint" ""
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Datasheet" ""
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Description" ""
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(symbol "Vega108_T2_0_1"
+				(polyline
+					(pts
+						(xy -20 17.78) (xy -10 17.78)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -20 2.54) (xy -10 2.54)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(arc
+					(start -10 17.78)
+					(mid -8 16.51)
+					(end -10 13.97)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(arc
+					(start -10 13.97)
+					(mid -8 11.43)
+					(end -10 10.16)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(arc
+					(start -10 10.16)
+					(mid -8 7.62)
+					(end -10 6.35)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(arc
+					(start -10 6.35)
+					(mid -8 3.81)
+					(end -10 2.54)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -3 48.26) (xy -3 -49.53)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0 48.26) (xy 0 -49.53)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(arc
+					(start 7 -10.16)
+					(mid 4.9997 -8.89)
+					(end 7 -7.62)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(arc
+					(start 7 -16.51)
+					(mid 4.9997 -15.24)
+					(end 7 -13.97)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(arc
+					(start 7 41.91)
+					(mid 4.8917 43.815)
+					(end 7 45.72)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(arc
+					(start 7 38.1)
+					(mid 4.8917 40.005)
+					(end 7 41.91)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(arc
+					(start 7 34.29)
+					(mid 4.8917 36.195)
+					(end 7 38.1)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(arc
+					(start 7 30.48)
+					(mid 4.8917 32.385)
+					(end 7 34.29)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(arc
+					(start 7 20.32)
+					(mid 4.8917 22.225)
+					(end 7 24.13)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(arc
+					(start 7 16.51)
+					(mid 4.8917 18.415)
+					(end 7 20.32)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(arc
+					(start 7 7.62)
+					(mid 4.8917 9.525)
+					(end 7 11.43)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(arc
+					(start 7 -3.81)
+					(mid 4.8917 -1.905)
+					(end 7 0)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(arc
+					(start 7 -7.62)
+					(mid 4.8917 -5.715)
+					(end 7 -3.81)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(arc
+					(start 7 -20.32)
+					(mid 4.8917 -18.415)
+					(end 7 -16.51)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(arc
+					(start 7 -24.13)
+					(mid 4.8917 -22.225)
+					(end 7 -20.32)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(arc
+					(start 7 -35.56)
+					(mid 4.8917 -33.655)
+					(end 7 -31.75)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(arc
+					(start 7 -39.37)
+					(mid 4.8917 -37.465)
+					(end 7 -35.56)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(arc
+					(start 7 -48.26)
+					(mid 4.8917 -46.355)
+					(end 7 -44.45)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 7 45.72) (xy 18 45.72)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 7 30.48) (xy 18 30.48)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 7 24.13) (xy 18 24.13)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 7 7.62) (xy 18 7.62)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 7 0) (xy 18 0)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 7 -10.16) (xy 13 -10.16) (xy 13 -13.97) (xy 7 -13.97)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 7 -24.13) (xy 18 -24.13)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 7 -31.75) (xy 18 -31.75)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 7 -48.26) (xy 18 -48.26)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(arc
+					(start 7 11.43)
+					(mid 5.0001 13.97)
+					(end 7 16.51)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(arc
+					(start 7 -44.45)
+					(mid 5.0001 -41.91)
+					(end 7 -39.37)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(circle
+					(center 9 1.5)
+					(radius 0.55)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type outline)
+					)
+				)
+				(circle
+					(center 9 -25.63)
+					(radius 0.55)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type outline)
+					)
+				)
+				(polyline
+					(pts
+						(xy 13 -11.43) (xy 18 -11.43)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(circle
+					(center 13 -11.43)
+					(radius 0.55)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type outline)
+					)
+				)
+			)
+			(symbol "Vega108_T2_1_1"
+				(pin passive line
+					(at 20.32 45.72 180)
+					(length 2.32)
+					(name "4V5"
+						(effects
+							(font
+								(size 1 1)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1 1)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 20.32 0 180)
+					(length 2.32)
+					(name "15V_A"
+						(effects
+							(font
+								(size 1 1)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1 1)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 20.32 30.48 180)
+					(length 2.32)
+					(name "4V5"
+						(effects
+							(font
+								(size 1 1)
+							)
+						)
+					)
+					(number "3"
+						(effects
+							(font
+								(size 1 1)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 20.32 24.13 180)
+					(length 2.32)
+					(name "32V"
+						(effects
+							(font
+								(size 1 1)
+							)
+						)
+					)
+					(number "4"
+						(effects
+							(font
+								(size 1 1)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 20.32 7.62 180)
+					(length 2.32)
+					(name "32V"
+						(effects
+							(font
+								(size 1 1)
+							)
+						)
+					)
+					(number "5"
+						(effects
+							(font
+								(size 1 1)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 20.32 -11.43 180)
+					(length 2.32)
+					(name "15V_COM"
+						(effects
+							(font
+								(size 1 1)
+							)
+						)
+					)
+					(number "7"
+						(effects
+							(font
+								(size 1 1)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at -22.86 17.78 0)
+					(length 2.86)
+					(name "PRI"
+						(effects
+							(font
+								(size 1 1)
+							)
+						)
+					)
+					(number "8"
+						(effects
+							(font
+								(size 1 1)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 20.32 -24.13 180)
+					(length 2.32)
+					(name "15V_B"
+						(effects
+							(font
+								(size 1 1)
+							)
+						)
+					)
+					(number "9"
+						(effects
+							(font
+								(size 1 1)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at -22.86 2.54 0)
+					(length 2.86)
+					(name "PRI"
+						(effects
+							(font
+								(size 1 1)
+							)
+						)
+					)
+					(number "10"
+						(effects
+							(font
+								(size 1 1)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 20.32 -31.75 180)
+					(length 2.32)
+					(name "EPU_18V"
+						(effects
+							(font
+								(size 1 1)
+							)
+						)
+					)
+					(number "E1"
+						(effects
+							(font
+								(size 1 1)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 20.32 -48.26 180)
+					(length 2.32)
+					(name "EPU_18V"
+						(effects
+							(font
+								(size 1 1)
+							)
+						)
+					)
+					(number "E2"
+						(effects
+							(font
+								(size 1 1)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
 		)
-		(fill
-			(type none)
+	)
+	(text "15 В AC (2–7)"
+		(exclude_from_sim no)
+		(at 330 155 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
 		)
-		(uuid "3759569d-9bbc-49fc-ac5c-a95e76e30fcf")
+		(uuid "037788c8-2718-4668-b43e-30770d8cf144")
 	)
 	(text "MOTOR_SUPPLY — интерфейс уточняется"
 		(exclude_from_sim no)
@@ -39,9 +771,9 @@
 		)
 		(uuid "2152a00e-1609-4739-93b9-b949c1135a08")
 	)
-	(text "T1: комплектный трансформатор\nВторичная: 15–0–15 В AC\nПервичная и мощность уточняются\nПитание остальных плат: не выбрано\nВход сети, кнопка, LED, подсветка и питание ЭПУ: интерфейсы\nВнутренняя схема БП и защита уточняются"
+	(text "T1: комплектный трансформатор\nВторичная: 15–0–15 В AC\nПервичная и мощность уточняются\nT1 выделен для фонокорректора\nВход сети, кнопка, LED, подсветка и питание ЭПУ: интерфейсы\nВнутренняя схема БП и защита уточняются"
 		(exclude_from_sim no)
-		(at 105 90 0)
+		(at 36.576 69.088 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -50,18 +782,7 @@
 		)
 		(uuid "27bedb7e-34ad-4961-913a-23ccf571e63c")
 	)
-	(text "Порты логические; распиновку и соединение общих проводов проверить перед монтажом."
-		(exclude_from_sim no)
-		(at 70 170 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left)
-		)
-		(uuid "2edbfa12-7fba-421a-a56e-a0abf653267b")
-	)
-	(text "PANEL_LIGHT{PLUS MINUS} — интерфейс уточняется"
+	(text "PANEL_LIGHT{PLUS MINUS} — DC от обмотки 4,5 В AC"
 		(exclude_from_sim no)
 		(at 105 215 0)
 		(effects
@@ -71,6 +792,17 @@
 			(justify left)
 		)
 		(uuid "368c1311-aa48-411c-8706-2e83d98474a7")
+	)
+	(text "T2, 2×15 В AC: резерв для усилителя мощности.\nСхему включения и выпрямитель выбрать под усилитель."
+		(exclude_from_sim no)
+		(at 304.8 235.87 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "3d6aa3fd-60c2-4bb2-b346-01cead4742d2")
 	)
 	(text "POWER_BUTTON{A B} — интерфейс уточняется"
 		(exclude_from_sim no)
@@ -94,6 +826,72 @@
 		)
 		(uuid "60fb53a6-cb67-4c8f-b1ec-ccdfbbab9da1")
 	)
+	(text "Контакты 18 В на разъёме ЭПУ не пронумерованы."
+		(exclude_from_sim no)
+		(at 304.8 241.87 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "6179c04b-a717-46bc-b6db-4654f7c5d78f")
+	)
+	(text "Точки: выводы 2 и 9 однофазны относительно 7.\n2–9: 0 В AC по замеру. Для 30 В развернуть одну секцию."
+		(exclude_from_sim no)
+		(at 304.8 229.87 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "67778291-6ca9-46a4-96b6-7fb67d30d84c")
+	)
+	(text "15 В AC (7–9)"
+		(exclude_from_sim no)
+		(at 330 167 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "6f064f85-0ac8-4b29-a365-4a2621695e2e")
+	)
+	(text "18 В AC"
+		(exclude_from_sim no)
+		(at 330 189 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "9357ad27-9672-4016-999e-0dca0b6c5046")
+	)
+	(text "4,5 В AC"
+		(exclude_from_sim no)
+		(at 330 111 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "a3cf7580-249a-44c1-8024-30524bce237c")
+	)
+	(text "32 В AC"
+		(exclude_from_sim no)
+		(at 330 133 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "b3d19173-6332-4e8f-a4db-8edf0a7ba01d")
+	)
 	(text "MAINS_L — интерфейс уточняется"
 		(exclude_from_sim no)
 		(at 105 220 0)
@@ -105,7 +903,18 @@
 		)
 		(uuid "c7f15e38-5c26-45ad-8e5f-bb1cb5aeed3e")
 	)
-	(text "VU-метр: выход 7–12 В DC, ток нагрузки уточнить; возврат PGND."
+	(text "220 В AC"
+		(exclude_from_sim no)
+		(at 270 139 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "d62dc622-f71e-43fc-b235-846d150dc9c2")
+	)
+	(text "VU-метр: 9 В от ветви T2 18 В AC.\nРадио: отдельные 9 В от ветви T2 32 В AC.\nВозврат PGND вести отдельно до БП. Токи плат уточнить."
 		(exclude_from_sim no)
 		(at 105 265 0)
 		(effects
@@ -116,20 +925,20 @@
 		)
 		(uuid "da7ab101-3183-4d78-a42d-93d0f783ffcf")
 	)
-	(text "Питание"
+	(text "План: T2, 18 В AC — ЭПУ и WM-046 параллельно.\nВход WM-046: встроенный мост, предел 20 В AC.\nПроверить напряжение без нагрузки и ток обмотки.\n32 В AC — кандидат для вспомогательных ветвей.\n4,5 В AC — резерв. Токи обмоток уточнить.\nТемброблок: LM317HV (TO-220) с радиатором, 12 В DC.\nКандидат на вход: T2 32 В AC через мост и фильтр.\nРадиатор подобрать по измеренному току платы."
 		(exclude_from_sim no)
-		(at 100 50 0)
+		(at 304.8 247.87 0)
 		(effects
 			(font
-				(size 2 2)
+				(size 1.27 1.27)
 			)
 			(justify left)
 		)
-		(uuid "e7cd3ab3-0463-4c4f-9117-ee4573717156")
+		(uuid "e368f794-f3a4-4d86-a4a3-efb0bff5eed4")
 	)
 	(bus
 		(pts
-			(xy 270 66) (xy 250 66)
+			(xy 220.66 68.58) (xy 239.71 68.58)
 		)
 		(stroke
 			(width 0)
@@ -166,6 +975,26 @@
 			(type default)
 		)
 		(uuid "4e0abe68-3aff-44b7-9038-f4c5d32ce4aa")
+	)
+	(bus
+		(pts
+			(xy 239.71 77.47) (xy 255.27 77.47)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "8f0e87f2-c0f0-42a3-8bef-4062a936e139")
+	)
+	(bus
+		(pts
+			(xy 239.71 68.58) (xy 239.71 77.47)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "966d7ce8-37ef-4044-b236-99a7929aac02")
 	)
 	(wire
 		(pts
@@ -264,7 +1093,7 @@
 	)
 	(hierarchical_label "PHONO_AC{A CT B}"
 		(shape passive)
-		(at 270 66 180)
+		(at 220.66 68.58 180)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -295,4 +1124,139 @@
 		)
 		(uuid "ec47d34c-24df-4e87-9161-d570c1d5d9b6")
 	)
+	(symbol
+		(lib_id "Vega108_T2")
+		(at 304.8 148.59 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board no)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "2da3a291-4db9-4c50-8784-f46c5196e8df")
+		(property "Reference" "T2"
+			(at 305 89 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1 1)
+				)
+			)
+		)
+		(property "Value" "Трансформатор Вега-108"
+			(at 305 93 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1 1)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 304.8 148.59 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 304.8 148.59 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" ""
+			(at 304.8 148.59 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "8"
+			(uuid "6d088d8b-7ad6-4cfb-bd6c-8f3c6e9eb94e")
+		)
+		(pin "10"
+			(uuid "0091ea97-b071-4ea3-8993-a6c8499f36e2")
+		)
+		(pin "1"
+			(uuid "d97a1cbd-247c-4d6c-83bd-77f18c056e53")
+		)
+		(pin "3"
+			(uuid "a93d7033-4431-424e-abdb-445194f108b6")
+		)
+		(pin "4"
+			(uuid "c67723b5-b985-436c-83e2-f1dceb5cd9c6")
+		)
+		(pin "5"
+			(uuid "add33db5-4c6c-426d-85fc-dbda22f7ed39")
+		)
+		(pin "2"
+			(uuid "f714b143-38e1-44c3-bc94-49654751afac")
+		)
+		(pin "7"
+			(uuid "3d80e7e3-c255-4e28-8d23-944c5d5b5f74")
+		)
+		(pin "9"
+			(uuid "c325d1cb-e7cc-4682-82ea-737f511e465d")
+		)
+		(pin "E1"
+			(uuid "127314a0-ea13-4efa-8939-01ca5ab566ba")
+		)
+		(pin "E2"
+			(uuid "80ad9ca1-8083-4b5e-9769-a22b910ae0bb")
+		)
+		(instances
+			(project "electophonograph"
+				(path "/b98ac240-e849-4918-859a-e2207bd77e73/8f6d2c55-d197-438b-918d-bcd2ceb57e25"
+					(reference "T2")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(text "Модуль питания — функциональная схема" (at 403 20 0) (effects (font (size 2.4 2.4)) (justify left)) (uuid "37ebf9ae-3183-42d2-ba5a-3ee24e6f7d10"))
+	(rectangle (start 403 32) (end 575 56) (stroke (width 0.254) (type solid)) (fill (type none)) (uuid "848b4f5d-60cf-4ea6-be92-84c599eacfce"))
+	(text "Сеть 220 В AC → предохранитель → двухполюсный выключатель\nПосле выключателя: первичные обмотки T1 и T2 параллельно.\nНоминал предохранителя и сетевой узел уточнить." (at 406 39 0) (effects (font (size 1.6 1.6)) (justify left)) (uuid "75b8b20a-ff4b-44f1-84c4-cfed9312e86e"))
+	(rectangle (start 403 64) (end 575 80) (stroke (width 0.254) (type solid)) (fill (type none)) (uuid "ea69e272-51f9-4b4a-8ba9-a2dcb07f2458"))
+	(text "T1 → 15–0–15 В AC → фонокорректор (PHONO_AC)." (at 406 71 0) (effects (font (size 1.6 1.6)) (justify left)) (uuid "521556e1-7ae3-46c1-8114-dc6ee383983e"))
+	(rectangle (start 403 88) (end 475 110) (stroke (width 0.254) (type solid)) (fill (type none)) (uuid "3f9fd65b-4957-44ef-ac85-2a96cd94c1ea"))
+	(text "T2, E1–E2: 18 В AC\nШтатный вход ЭПУ и WM-046 параллельно." (at 406 95 0) (effects (font (size 1.6 1.6)) (justify left)) (uuid "07d8f674-9228-4c15-9506-5696629c981b"))
+	(rectangle (start 495 88) (end 575 110) (stroke (width 0.254) (type solid)) (fill (type none)) (uuid "dab67bd7-6b0d-4371-afab-1479e37e72a0"))
+	(text "WM-046: встроенный мост.\nНа его входе проверить максимум 20 В AC." (at 498 95 0) (effects (font (size 1.6 1.6)) (justify left)) (uuid "ed5869f2-4441-4cfa-ae47-93ce76d769c0"))
+	(polyline (pts (xy 475 99) (xy 495 99)) (stroke (width 0.254) (type solid)) (fill (type none)) (uuid "d683a4a1-57f3-454f-b69a-c200b51516c3"))
+	(polyline (pts (xy 493 98) (xy 495 99) (xy 493 100)) (stroke (width 0.254) (type solid)) (fill (type none)) (uuid "f3ac5cc5-70da-41b6-a76a-cb73851c72e9"))
+	(rectangle (start 403 118) (end 475 141) (stroke (width 0.254) (type solid)) (fill (type none)) (uuid "c975073a-26c6-4311-8d23-8dfec91f343b"))
+	(text "От 18 В AC: мост + фильтр.\nОколо 24 В DC при 18 В AC." (at 406 125 0) (effects (font (size 1.6 1.6)) (justify left)) (uuid "f0be765d-ef2a-4586-b786-a057571a5788"))
+	(rectangle (start 495 118) (end 575 141) (stroke (width 0.254) (type solid)) (fill (type none)) (uuid "cff60972-81c3-436d-8b8f-73c0e9bf4a2f"))
+	(text "Линейный стабилизатор 9 В + радиатор\n→ VU-метр (VCC / отдельный возврат PGND)." (at 498 125 0) (effects (font (size 1.6 1.6)) (justify left)) (uuid "8c1d4c62-9df4-4db7-88f0-1a2157dfe46f"))
+	(polyline (pts (xy 475 129) (xy 495 129)) (stroke (width 0.254) (type solid)) (fill (type none)) (uuid "f2f8eb0a-dc77-40a1-a750-3db0af8fcb20"))
+	(polyline (pts (xy 493 128) (xy 495 129) (xy 493 130)) (stroke (width 0.254) (type solid)) (fill (type none)) (uuid "5b20f3c0-5538-4f7d-94a1-df4c859482e5"))
+	(rectangle (start 403 149) (end 475 190) (stroke (width 0.254) (type solid)) (fill (type none)) (uuid "0de595e1-7c0d-4f1e-84ac-98baf2b55688"))
+	(text "T2, 4–5: 32 В AC → общий мост + фильтр.\nОколо 44 В DC без нагрузки.\nНапряжение конденсатора выбрать\nпо максимуму на холостом ходу." (at 406 156 0) (effects (font (size 1.6 1.6)) (justify left)) (uuid "10c80daa-53b2-4e38-ab37-b46150893a1a"))
+	(rectangle (start 495 149) (end 575 167) (stroke (width 0.254) (type solid)) (fill (type none)) (uuid "14ad2044-05fd-428b-99de-df4b09e387f1"))
+	(text "LM317HV, TO-220 с радиатором\n→ 12 В DC, темброблок." (at 498 156 0) (effects (font (size 1.6 1.6)) (justify left)) (uuid "c082017f-84f3-4cd9-a352-f68c203526b8"))
+	(rectangle (start 495 172) (end 575 190) (stroke (width 0.254) (type solid)) (fill (type none)) (uuid "cd9d9b78-36e8-4a7e-a064-41221d03b160"))
+	(text "Отдельный LM317HV с радиатором\n→ 9 В DC / 150 мА, радио / Bluetooth / MP3.\nПри 44 В на входе: рассеяние ≈ 5,25 Вт." (at 498 179 0) (effects (font (size 1.6 1.6)) (justify left)) (uuid "07493391-6a1b-408d-b7bc-54503356c510"))
+	(polyline (pts (xy 475 158) (xy 495 158)) (stroke (width 0.254) (type solid)) (fill (type none)) (uuid "bfeac1d4-6ab1-4508-bf1b-21b6bdfe5d3d"))
+	(polyline (pts (xy 493 157) (xy 495 158) (xy 493 159)) (stroke (width 0.254) (type solid)) (fill (type none)) (uuid "a54db2df-9764-43f4-9c72-302b93733798"))
+	(polyline (pts (xy 475 181) (xy 495 181)) (stroke (width 0.254) (type solid)) (fill (type none)) (uuid "05d9f352-d9c0-4fa0-a58a-dd083f98766e"))
+	(polyline (pts (xy 493 180) (xy 495 181) (xy 493 182)) (stroke (width 0.254) (type solid)) (fill (type none)) (uuid "95180967-5a59-4da9-bd3b-7fd9e746a26e"))
+	(rectangle (start 403 198) (end 575 227) (stroke (width 0.254) (type solid)) (fill (type none)) (uuid "891ecf36-d35c-492f-9a70-46bb19528b2f"))
+	(text "Индикатор питания: от ветви 9 В VU через резистор по току LED.\nПодсветка панели: T2, 1–3 (4,5 В AC) → мост Шоттки и фильтр.\nНа выходе около 5–6 В DC без нагрузки. Ограничение тока по светодиодам.\nВозвраты радио, темброблока и VU — отдельными проводами к своим фильтрам." (at 406 205 0) (effects (font (size 1.6 1.6)) (justify left)) (uuid "0dbf2907-94b8-4c8b-aa0c-5cb8e75dda3c"))
+	(rectangle (start 403 231) (end 575 255) (stroke (width 0.254) (type solid)) (fill (type none)) (uuid "607506b7-6b17-4823-9cc0-751cd8c4b2fe"))
+	(text "T2, 2–7 и 7–9: 2×15 В AC, резерв усилителя мощности.\nФазировку и схему выпрямления выбрать под усилитель.\nT2, 1–3: 4,5 В AC, питание подсветки." (at 406 238 0) (effects (font (size 1.6 1.6)) (justify left)) (uuid "ee0a5d8d-9a74-485d-89ed-1f2b5a275f1e"))
+	(text "Для расчёта фильтров и радиаторов нужны токи нагрузок и напряжения AC под нагрузкой." (at 403 265 0) (effects (font (size 1.45 1.45)) (justify left)) (uuid "5da39a76-6695-43af-83e7-88d9561cc6a4"))
 )

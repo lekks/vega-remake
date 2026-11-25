@@ -28,7 +28,7 @@
 		)
 		(uuid "cafb47bd-08ef-4d26-b87d-90f4951e2281")
 	)
-	(text "Радио / Bluetooth / MP3\nМодель, питание и распиновка уточняются"
+	(text "Радио / Bluetooth / MP3\nНа входе замечен 78M05. План: 9 В DC.\nРаспиновку входа и ток платы уточнить."
 		(exclude_from_sim no)
 		(at 105 90 0)
 		(effects
