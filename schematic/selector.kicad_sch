@@ -17,6 +17,17 @@
 		)
 		(uuid "03f76a5d-8202-4b8e-b1e2-56d676734856")
 	)
+	(text "Питание WM-046: 18 В AC на колодку со встроенным мостом."
+		(exclude_from_sim no)
+		(at 99.21 106 0)
+		(effects
+			(font
+				(size 1 1)
+			)
+			(justify left bottom)
+		)
+		(uuid "181aed14-7bfd-4303-a901-e5db0e35bf77")
+	)
 	(text "Селектор WM-046"
 		(exclude_from_sim no)
 		(at 100 50 0)
@@ -101,25 +112,15 @@
 		)
 		(uuid "c40bd6e6-0ccb-4bfd-89f7-054460d08b7c")
 	)
-	(wire
+	(bus
 		(pts
-			(xy 70 106) (xy 90 106)
+			(xy 70 106) (xy 95.4 106)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "cc2dfcc7-4e43-4ed4-97eb-f4225bed2eba")
-	)
-	(wire
-		(pts
-			(xy 70 114) (xy 90 114)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "d8c9b07e-323f-458f-8efc-dd767cb96874")
+		(uuid "d5f5399e-f300-454d-82db-04b5e7191eac")
 	)
 	(hierarchical_label "SELECT_CONTROL{TBD}"
 		(shape passive)
@@ -132,6 +133,17 @@
 		)
 		(uuid "347c1d74-b9bd-4c80-b933-eca4198741f2")
 	)
+	(hierarchical_label "EPU_AC{A B}"
+		(shape passive)
+		(at 70 106 0)
+		(effects
+			(font
+				(size 1 1)
+			)
+			(justify left)
+		)
+		(uuid "34f20ec5-2d95-43e9-85d8-fb57a2587bce")
+	)
 	(hierarchical_label "PHONO{L R GND}"
 		(shape passive)
 		(at 70 66 0)
@@ -143,17 +155,6 @@
 		)
 		(uuid "42dd5d0b-93df-4710-a921-1c825460a5d5")
 	)
-	(hierarchical_label "PWR_A"
-		(shape passive)
-		(at 70 106 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left)
-		)
-		(uuid "83905b06-9279-4b93-b2a3-8311db69c2f8")
-	)
 	(hierarchical_label "MEDIA{L R GND}"
 		(shape passive)
 		(at 70 90 0)
@@ -164,17 +165,6 @@
 			(justify left)
 		)
 		(uuid "afa4b9d7-305e-4630-87f1-6d118a89693c")
-	)
-	(hierarchical_label "PWR_B"
-		(shape passive)
-		(at 70 114 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left)
-		)
-		(uuid "cb478f22-9b10-47f9-9ed3-783367025386")
 	)
 	(hierarchical_label "SELECTED{L R GND}"
 		(shape passive)

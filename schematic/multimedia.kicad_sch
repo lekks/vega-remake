@@ -17,6 +17,17 @@
 		)
 		(uuid "f08538ff-f939-4962-a6c4-301aa3955895")
 	)
+	(text "Питание радио: 9 В DC, до 150 мА по плану."
+		(exclude_from_sim no)
+		(at 99.21 66 0)
+		(effects
+			(font
+				(size 1 1)
+			)
+			(justify left bottom)
+		)
+		(uuid "00de4729-ae0f-48ec-b441-a1bfcd789bb4")
+	)
 	(text "Мультимедиа"
 		(exclude_from_sim no)
 		(at 100 50 0)
@@ -52,6 +63,16 @@
 	)
 	(bus
 		(pts
+			(xy 70 66) (xy 95.4 66)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "2e1890b0-13a0-455b-a967-f910c264ccb2")
+	)
+	(bus
+		(pts
 			(xy 270 66) (xy 250 66)
 		)
 		(stroke
@@ -59,37 +80,6 @@
 			(type default)
 		)
 		(uuid "2e9122e4-8c37-4901-989a-bb46ca75608f")
-	)
-	(wire
-		(pts
-			(xy 70 66) (xy 90 66)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "8bb35841-03ed-4c01-9498-a1d055438a16")
-	)
-	(wire
-		(pts
-			(xy 70 58) (xy 90 58)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "de8e3399-76c3-4994-84a1-154aeb46b3e1")
-	)
-	(hierarchical_label "GND"
-		(shape passive)
-		(at 70 66 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left)
-		)
-		(uuid "64c28899-ebdb-4dfa-adf0-1bdddb794a1e")
 	)
 	(hierarchical_label "MEDIA{L R GND}"
 		(shape passive)
@@ -102,15 +92,15 @@
 		)
 		(uuid "701c2a12-360d-4cc0-a7c4-57c5c497c832")
 	)
-	(hierarchical_label "VCC"
+	(hierarchical_label "MEDIA_PWR{VCC GND}"
 		(shape passive)
-		(at 70 58 0)
+		(at 70 66 0)
 		(effects
 			(font
-				(size 1.27 1.27)
+				(size 1 1)
 			)
 			(justify left)
 		)
-		(uuid "a0d65d57-28f0-4802-a70e-90ca1ccc91e9")
+		(uuid "f7e50c00-1e7d-4cd7-aa8b-75e537bab6cb")
 	)
 )

@@ -39,6 +39,17 @@
 		)
 		(uuid "265eb95b-ce39-41c2-b0b4-a9a42a8b658b")
 	)
+	(text "Питание темброблока: стабилизированные 12 В DC."
+		(exclude_from_sim no)
+		(at 99.21 82 0)
+		(effects
+			(font
+				(size 1 1)
+			)
+			(justify left bottom)
+		)
+		(uuid "392a64be-dff6-43b0-aa2b-f48e42e93409")
+	)
 	(text "RV1[1..3] — интерфейс уточняется"
 		(exclude_from_sim no)
 		(at 105 230 0)
@@ -134,16 +145,6 @@
 		)
 		(uuid "623d6e77-8599-46cf-aea3-2dc5af375cab")
 	)
-	(wire
-		(pts
-			(xy 70 90) (xy 90 90)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "7514db35-51b1-4200-9076-a4fbea9d96c8")
-	)
 	(bus
 		(pts
 			(xy 70 245) (xy 100 245)
@@ -153,16 +154,6 @@
 			(type default)
 		)
 		(uuid "87cb6a5a-0dc4-4633-b8e5-d640e987e99a")
-	)
-	(wire
-		(pts
-			(xy 70 82) (xy 90 82)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "8faf5599-5764-4cca-ba8b-92cc923ab843")
 	)
 	(bus
 		(pts
@@ -174,6 +165,16 @@
 		)
 		(uuid "9cd083b2-91ee-421a-b3e3-42f33d78f66d")
 	)
+	(bus
+		(pts
+			(xy 70 82) (xy 95.4 82)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "aff1b500-78ff-490f-9c41-ae8bbf1a072c")
+	)
 	(hierarchical_label "RV4[1..3]"
 		(shape passive)
 		(at 70 245 0)
@@ -184,28 +185,6 @@
 			(justify left)
 		)
 		(uuid "118205bb-8f6b-46b5-9cca-a3c90552252b")
-	)
-	(hierarchical_label "PWR_A"
-		(shape passive)
-		(at 70 82 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left)
-		)
-		(uuid "1a01f48d-2efc-48ce-adf2-557e22b0c26a")
-	)
-	(hierarchical_label "PWR_B"
-		(shape passive)
-		(at 70 90 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left)
-		)
-		(uuid "1b6ccb13-96b8-4665-88fc-b9b5a4ffe4cb")
 	)
 	(hierarchical_label "SELECTED{L R GND}"
 		(shape passive)
@@ -228,6 +207,17 @@
 			(justify right)
 		)
 		(uuid "66eb29e1-5162-4620-8306-0094f23bc373")
+	)
+	(hierarchical_label "TONE_PWR{PLUS MINUS}"
+		(shape passive)
+		(at 70 82 0)
+		(effects
+			(font
+				(size 1 1)
+			)
+			(justify left)
+		)
+		(uuid "7380aed0-f0ce-4820-be25-40381e94473d")
 	)
 	(hierarchical_label "RV2[1..3]"
 		(shape passive)

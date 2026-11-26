@@ -50,6 +50,17 @@
 		)
 		(uuid "d5b5e516-851a-4dfd-a5e6-1725dd2b5ab1")
 	)
+	(text "Штатный вход 18 В AC. Для нового контроллера проверить допустимое питание."
+		(exclude_from_sim no)
+		(at 100 145 0)
+		(effects
+			(font
+				(size 1 1)
+			)
+			(justify left bottom)
+		)
+		(uuid "f6a308b7-06b4-405e-99cf-c4da06161f9e")
+	)
 	(bus
 		(pts
 			(xy 30 45) (xy 85 45)
@@ -90,7 +101,7 @@
 		)
 		(uuid "e3ca4cf0-0fef-4fa2-8453-791e04350b1d")
 	)
-	(wire
+	(bus
 		(pts
 			(xy 30 93) (xy 85 93)
 		)
@@ -144,7 +155,7 @@
 		)
 		(uuid "85aa0314-6388-40e6-94b9-07491d9f69ca")
 	)
-	(hierarchical_label "SUPPLY"
+	(hierarchical_label "EPU_AC{A B}"
 		(shape passive)
 		(at 30 93 0)
 		(effects
